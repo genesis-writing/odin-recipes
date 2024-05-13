@@ -1,0 +1,30 @@
+.page-background {
+    background-color: #acc4c4;
+}
+
+.global-font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.global-text-color {
+    color: #1C2727;
+}
+
+.global-center-text {
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ 
+.bulleted-list {
+    display: inline-block;
+}
+
+.global-left-align-text {
+    text-align: left;
+}
