@@ -1,5 +1,7 @@
 .page-background {
     background-color: #acc4c4;
+    margin:0;
+    padding:0;
 }
 
 .global-font {
@@ -14,17 +16,54 @@
     text-align: center;
 }
 
+.home-page-title {
+    font-size: 45px;
+}
+
+.top-banner {
+    box-sizing: border-box;
+    display: block;
+    padding: 5px;
+    background-color: #eb981d;
+}
+
+.content-container-recipe {
+    padding-left: 15px;
+}
+
 .center-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
+.home-page-main-image.center-image {
+    border-style: outset;
+    max-width: 100%;
+    height: auto;
+}
  
-.bulleted-list {
+.home-page-list.bulleted-list {
     display: inline-block;
+    list-style: none;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bullet-point-link:link {
+    color: #1C2727;
+}
+
+.bullet-point-link:visited {
+    color: #a03d0e;
 }
 
 .global-left-align-text {
     text-align: left;
+}
+
+.icon-credit-home-page {
+    margin-top: 20px;
 }
